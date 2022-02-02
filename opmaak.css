@@ -1,0 +1,109 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Windows10abstract.png/1200px-Windows10abstract.png");
+}
+
+h1, p {
+  background-color: rgba(72,61,139,0.8);
+  color: white;
+  font-family: Arial;
+}
+
+h1, p.inline {
+  display: inline-block;
+}
+
+p {
+  margin-right: 250px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+h1, p, iframe, img, table {
+    margin-left: 30px;
+}
+
+img {
+  background-color: darkslateblue;
+}
+
+tr {
+  background-color: indigo;
+}
+
+table {
+  border: 10px;
+}
+
+ul.menu {
+  overflow: hidden;
+  margin: 0px;
+  padding: 10px;
+}
+
+ul.menu li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  width: 80px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: rgb(0,0,100);
+}
+
+ul.menu a {
+  color: rgb(240,248,255);
+  width: 80px;
+  height: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+ul.menu a:hover {
+  color: rgb(190,198,205);
+}
+
+a.hyperlink {
+  text-decoration: none;
+  background-color: rgb(68,0,68);
+  color: lightblue;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+th, tr {
+  color: lightblue;
+}
+
+th#titel {
+  background-color: rgba(68,0,68,0.8);
+}
+
+th {
+  background-color: rgba(78,0,78,0.8);
+}
+
+tr#nummer1 {
+  background-color: rgba(88,0,88,0.8);
+}
+
+tr#nummer2 {
+  background-color: rgba(98,0,98,0.8);
+}
+
+tr#nummer3 {
+  background-color: rgba(108,0,108,0.8);
+}
+
+tr#nummer4 {
+  background-color: rgba(118,0,118,0.8);
+}
+
+tr#nummer5 {
+  background-color: rgba(128,0,128,0.8);
+}
+
+iframe {
+  border: none;
+}
